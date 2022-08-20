@@ -42,10 +42,11 @@ public class Main {
 
         int middle = 0;    // ПОДСКАЖИТЕ КАК ДЕЛАТЬ, ХОТЬ УБЕЙ НЕ ПОНИМАЮ КАК СЛОЖИТЬ ВСЕ ПЕРЕМЕННЫЕ ИЗ МАССИВА
         int allTotal = arr.length + total;
-        for (int i = 0; i < arr.length; i++) {
-            middle = allTotal / 30;
+        allTotal = total + arr[i];
+        middle = allTotal / arr.length;
+
             System.out.println(middle);
-        }
+
 
 
         //Task 4
