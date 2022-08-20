@@ -20,8 +20,9 @@ public class Main {
         int total = 0;
         for (int i = 0; i < arr.length; i++) {
             total = total + arr[i];
-            System.out.println("Сумма трат за месяц составила " + total + " рублей");
+
         }
+        System.out.println("Сумма трат за месяц составила " + total + " рублей");
 
         //Task 2
 
@@ -40,10 +41,10 @@ public class Main {
 
         //Task 3
 
-        int middle = 0;    // ПОДСКАЖИТЕ КАК ДЕЛАТЬ, ХОТЬ УБЕЙ НЕ ПОНИМАЮ КАК СЛОЖИТЬ ВСЕ ПЕРЕМЕННЫЕ ИЗ МАССИВА
-        int allTotal = arr.length + total;
-        allTotal = total + arr[i];
-        middle = allTotal / arr.length;
+        double middle = 0;
+        int allTotal = total/30;
+        allTotal = total;
+        middle =  (allTotal /30);
 
             System.out.println(middle);
 
